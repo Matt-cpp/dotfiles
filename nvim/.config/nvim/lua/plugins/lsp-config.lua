@@ -32,7 +32,6 @@ return {
       vim.lsp.enable("pyright")
       vim.lsp.enable("rust-analyzer")
       vim.lsp.enable("stylua")
-      vim.lsp.enable("eslint-lsp")
       vim.lsp.enable("ast-grep")
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
